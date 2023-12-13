@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-image {
+  height: 400px;
+  width: 900px;
+  border-radius: 20px;
+}
+
+.paragraph {
+  margin-top: 20px;
+  text-align: center;
+  width: 900px;
+}
+
+.containerCanciones {
+  margin-top: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+ul {
+  padding-left: 40px;
+  margin: 20px 0;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(2, 2, 31);
+}
+
+@media (min-width: 751px) and (max-width: 919px) {
+
+  .app-image {
+    width: 700px;
+    height: 300px;
+  }
+
+  .paragraph {
+    width: 700px;
+  }
+
+  button {
+    padding: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 750px) {
+
+  .app-image {
+    width: 400px;
+    height: 200px;
+  }
+
+  .paragraph {
+    width: 400px;
+  }
+
+  button {
+    padding: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+  .app-image {
+    width: 300px;
+    height: 200px;
+  }
+
+  .paragraph {
+    width: 300px;
+  }
+
+  ul {
+    padding-left: 30px;
+
+  }
+
+  button {
+    padding: 10px;
+    margin-right: 0;
+  }
+}
